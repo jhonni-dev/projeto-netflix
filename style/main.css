@@ -46,7 +46,7 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/the-great.jpg'); /*https://www.themoviedb.org/?language=pt-BR*/
-    
+        
     height: 400px;
     background-size: cover;
 
@@ -95,4 +95,10 @@ header nav a:hover {
 
 .filme-principal .container {
     width: 40%;
+}
+
+.box-filme {
+    height: 100%;
+    width: 100%;
+    display: block;
 }
