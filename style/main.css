@@ -12,7 +12,7 @@
 /* BASE */
 body {
     background: var(--preto);
-    font-family: 'Times New Roman', Times, serif;
+    font-family:Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -46,8 +46,8 @@ header nav a:hover {
 .filme-principal {
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('/img/the-great.jpg'); /*https://www.themoviedb.org/?language=pt-BR*/
-        
-    height: 400px;
+    
+    /*height: 400px;*/
     background-size: cover;
 
     display: flex;
@@ -67,9 +67,10 @@ header nav a:hover {
 }
 
 .botao {
-    background-color: rgba(0,0,0,.50);
+    background-color: #00000080;
     border: none;
     color: white;
+    width: 200px;
 
     padding: 15px 30px;/* Espaço interno do elemento*/
     margin-right: 15px;
@@ -77,7 +78,7 @@ header nav a:hover {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
     cursor: pointer; /* Muda para mãozinha*/
-    transition: .3s ease-out; /* Ajusta a transição das animações*/
+    transition: .3s ease-out; /* Ajusta a transição das animações de botões*/
 }
 
 .botao:hover {
@@ -101,4 +102,8 @@ header nav a:hover {
     height: 100%;
     width: 100%;
     display: block;
+}
+
+.carousel-filmes {
+    margin-top: 5px;
 }
